@@ -1,0 +1,134 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.wrapper{
+    width: 100%;
+    margin: auto;
+    /* background-color: greenyellow; */
+    padding:0 20px ;
+  
+ 
+}
+.header-content{
+   flex-direction: column-reverse;
+
+  width: 100%;
+
+}
+
+.half-width{
+    max-width: 100%;
+
+
+}
+header figure{
+    margin-bottom: 60px;
+}
+
+h1{
+
+font-size: 40px;
+line-height: 50px;
+
+}
+header h5{
+    text-align: center;
+}
+h2::after{
+   
+   font-size: 60px;
+   
+    
+}
+p{
+    margin: 10px 0;
+}
+
+/* My Mission css  */
+.my-mission{
+   padding-top: 30px;
+   
+}
+.my-mission-box-wrapper{
+   flex-direction: column;
+
+}
+
+
+
+
+	
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+
+	.wrapper{
+    width: 100%;
+    margin: auto;
+    /* background-color: greenyellow; */
+    padding:0 20px ;
+  
+ 
+}
+.header-content{
+   flex-direction: column-reverse;
+
+  width: 100%;
+
+}
+
+.half-width{
+    max-width: 100%;
+
+
+}
+header figure{
+    margin-bottom: 60px;
+}
+
+h1{
+
+font-size: 50px;
+
+
+}
+header h5{
+    text-align: center;
+}
+
+
+/* My Mission css  */
+.my-mission{
+    margin-top: 45px;
+}
+.my-mission-box-wrapper{
+   flex-direction: column;
+ 
+
+}
+
+h2{
+font-size: 30px;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+	
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	
+	
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
+	
+}
+
+
